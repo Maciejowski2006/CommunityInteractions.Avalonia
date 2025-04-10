@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <TargetFrameworks>net9.0;net8.0</TargetFrameworks>
+        <Description>Simple package providing a streamlined way for showing dialog boxes, inspired by ReactiveUI.</Description>
+        <Copyright>Maciej Chmiel</Copyright>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Avalonia" Version="11.0.10" />
+    </ItemGroup>
+
+</Project>

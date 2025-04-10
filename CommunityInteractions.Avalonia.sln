@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunityInteractions.Avalonia", "CommunityInteractions.Avalonia\CommunityInteractions.Avalonia.csproj", "{DC96AF1A-C570-41BA-8CB8-C3F712F87310}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunityInteractions.Dev", "CommunityInteractions.Dev\CommunityInteractions.Dev.csproj", "{A750A895-648C-43B7-9B6C-AB0CD0DE1389}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC96AF1A-C570-41BA-8CB8-C3F712F87310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC96AF1A-C570-41BA-8CB8-C3F712F87310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC96AF1A-C570-41BA-8CB8-C3F712F87310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC96AF1A-C570-41BA-8CB8-C3F712F87310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A750A895-648C-43B7-9B6C-AB0CD0DE1389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A750A895-648C-43B7-9B6C-AB0CD0DE1389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A750A895-648C-43B7-9B6C-AB0CD0DE1389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A750A895-648C-43B7-9B6C-AB0CD0DE1389}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
