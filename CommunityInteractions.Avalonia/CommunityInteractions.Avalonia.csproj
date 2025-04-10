@@ -6,6 +6,12 @@
         <TargetFrameworks>net9.0;net8.0</TargetFrameworks>
         <Description>Simple package providing a streamlined way for showing dialog boxes, inspired by ReactiveUI.</Description>
         <Copyright>Maciej Chmiel</Copyright>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageProjectUrl>https://github.com/Maciejowski2006/CommunityInteractions.Avalonia</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/Maciejowski2006/CommunityInteractions.Avalonia/blob/main/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/Maciejowski2006/CommunityInteractions.Avalonia</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <PackageTags>c#, csharp, avalonia, dialogs, mvvm, community-toolkit</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
