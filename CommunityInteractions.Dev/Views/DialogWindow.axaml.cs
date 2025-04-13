@@ -10,7 +10,8 @@ public partial class DialogWindow : Window
 	public DialogWindow()
 	{
 		InitializeComponent();
-		_vm = new(this);
+		_vm = new();
+		_vm.Command.OnClose += Close;
 		DataContext = _vm;
 	}
 }
