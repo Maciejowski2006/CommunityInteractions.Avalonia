@@ -51,6 +51,34 @@ await OpenDialogInteraction.ShowDialog();
 // Opens dialog and retrieves information provided by the Close method of a dialog window (Close(data))
 string res = await OpenDialogInteraction.ShowDialog<string>();
 ```
+If you need to return some data from your dialog, first you need to add a InteractionHandler to your dialog ViewModel. Next just use the Command.Close() function with your data as its argument.
+```csharp
+public partial class DialogWindowViewModel : ViewModelBase
+{
+	public readonly InteractionHandler Command = new();
+	
+	[RelayCommand]
+	private void CloseDialog()
+	{
+		Command.Close("test");
+	}
+}
+```
+Now you have to subscribe to your Close command from your window.
+```csharp
+public partial class DialogWindow : Window
+{
+	private readonly DialogWindowViewModel _vm;
+	
+	public DialogWindow()
+	{
+		InitializeComponent();
+		_vm = new();
+		_vm.Command.OnClose += Close;
+		DataContext = _vm;
+	}
+}
+```
 
 ## Examples
 Examples are provided in the CommunityInteractions.Dev project.
